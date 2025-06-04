@@ -5,6 +5,12 @@ from telegram.ext import (
 )
 import aiohttp
 
+from warnings import filterwarnings
+from telegram.warnings import PTBUserWarning
+
+filterwarnings(action="ignore", message=r".*CallbackQueryHandler", category=PTBUserWarning)
+
+
 # === Конфигурация ===
 TOKEN = '7342199254:AAEaBQVpw5Ug87sYgegJG5E22RKXpZPauFU'
 ADMIN_ID = 1604384939
