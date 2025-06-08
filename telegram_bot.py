@@ -13,7 +13,7 @@ filterwarnings(action="ignore", message=r".*CallbackQueryHandler", category=PTBU
 
 # === Конфигурация ===
 TOKEN = '7342199254:AAEaBQVpw5Ug87sYgegJG5E22RKXpZPauFU'
-ADMIN_ID = 1604384939
+ADMIN_ID = 8105823872
 MOCKAPI_URL = 'https://67056516031fd46a830fca90.mockapi.io/chat_users'
 
 # === FSM состояние ===
